@@ -1,0 +1,39 @@
+
+mutation{
+    newProject(data:{
+      title:"olx",
+      startDate:1549342741,
+      endDate:1549342741,
+      client:"olx indonesia",
+      offshore:true,
+      domain:"ecommerce",
+      studio:"scalable platform"
+    }){
+      _id
+      title
+    }
+  }
+  
+  mutation{
+    assignProject(data:{
+              empId: "5c529f331ba0b259548065f2",
+              isBillable: false,
+              role: "QA"
+    },projectID:"5c52d4df89010c46826eded5"){
+      title
+    }
+  }
+  
+  
+mutation{
+newEmployee(data:{
+  name:"utkarsh",
+  designation:"SE",
+  dob:"2018-02-21",
+  experience:4.6
+}){
+  _id
+  name
+  dob
+}
+}

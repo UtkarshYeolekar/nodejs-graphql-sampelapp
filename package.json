@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-graphql-sampelapp",
+  "version": "1.0.0",
+  "description": "demonstration of graphql with nodejs with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "author": "'Utkarsh <'utkarsh.yeolekar@gmail.com'> (http://www.letsblogitutkarsh.in/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.4",
+    "express-graphql": "0.7.1",
+    "graphql": "14.1.1",
+    "mongoose": "5.4.7"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql",
+    "mongoose",
+    "express-graphql"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
